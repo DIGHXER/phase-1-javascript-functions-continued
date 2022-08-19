@@ -13,7 +13,7 @@ mondayWork();
 
 function wrapAdjective(narration = "special"){
     const innerFunction = function (etiNini  = "*"){
-        return `You are ${narration}${etiNini }${narration}!`
+        return `You are ${narration}${etiNini}${narration}!`
     }
     return innerFunction
 }
